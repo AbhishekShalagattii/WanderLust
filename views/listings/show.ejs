@@ -24,12 +24,18 @@
             </div>
         </div>
         <br>
+
+
+
         <div class="btns">
-            <a class="btn btn-dark col-1.5 offset-3 edit-btn" href="/listings/<%= listing._id%>/edit">Edit</a>
+            <a class="btn btn-dark col-1.5 offset-3 edit-btn" href="/listings/<%= listing._id%>/edit">Edit
+            </a>
+
             <form method="post" action="/listings/<%=listing._id%>?_method=DELETE">
                 <button class="btn btn-dark   offset-3">Delete</button>
             </form>
         </div>
+
 
         <div class="col-8 offset-3 mb-3">
             <hr>
